@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <img src="../img/logoUNAD-HD.png" alt="" width="100%" height="100%">
+    </header>
+    <h1> HTML 5 y CSS: Etiquetas semánticas, Listas y enlaces</h1>
+    <nav class="menu-area">
+        <ul>
+            <li><a id="logo" href="#">Sebastian Bernal</a> </li>
+            <li> <a href="index.html">Inicio</a> </li>
+            <li><a href="#">temas</a>
+                <ul class="dropdown-1">
+                    <li><a href="tema1.html">Etiquetas semánticas</a></li>
+                    <li><a href="tema2.html">Listas</a></li>
+                    <li><a href="tema3.html">Enlaces</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos</a>
+                <ul class="dropdown-1">
+                    <li> <a href="recurso1.html">Recurso 1</a> </li>
+                    <li><a href="recurso2.html">Recurso 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a>
+                <ul class="dropdown-1">
+                    <li> <a href="Aprendizaje1.html">Aprendizaje 1</a> </li>
+                    <li><a href="Aprendizaje2.html">Aprendizaje 2</a></li>
+                </ul>
+            </li>
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+    <div>
+        <section>
+            <h3>Etiquetas semánticas:</h3>
+            <p>Las etiquetas semánticas ayudan a la implementación de los estándares de la Web Semántica, cuya finalidad
+                es hacer el contenido de internet legible para aplicaciones informáticas.</p><br>
+            <article>
+                <p>
+                    Uno de los usos mas importantes de este tipo de etiquetas es la de marcar la información de la
+                    pagina para ser indexada por los buscadores web como Google.
+                </p><br>
+                <h4>Etiquetas</h4>
+                <table CELLPADDING=7 CELLSPACING=0 style="width: 100%; margin-right:9pt; margin-left:9pt; border:2.25pt solid #2f5496; border-collapse:collapse; float:left;">
+                    <thead>
+                        <tr style="height: 30.35pt;">
+                            <th style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Tag</th>
+                            <th style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">&lt;header&gt;</td>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Representa un grupo de ayudas introductorias o de navegación.<br>También puede contener
+                        </tr>
+                        <tr>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">&lt;nav&gt;</td>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Sección de una página que enlaza a otras páginas o partes de la misma. <br>Una sección
+                                con links de navegación.</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">&lt;aside&gt;</td>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Sección de una pagina que contiene contenido relacionado tangencialmente al de su
+                                alrededor.<br>Por lo general se utilizan como barras laterales.</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">&lt;main&gt;</td>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Representa el contenido predominante de la página.<br>Una página debe tener solo un tag
+                                <code>&lt;main&gt;</code>.<br>Solo debe estar contenida por tags de tipo
+                                <code>&lt;html&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;div&gt;</code> o
+                                <code>&lt;form&gt;</code>.</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">&lt;article&gt;</td>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Representa una sección de contenido que puede ser distribuido de forma
+                                independiente.<br>Puede ser un post en un foro, un articulo de periódico, una entrada de
+                                un blog, un comentario, etc.</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">&lt;section&gt;</td>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Representa a una sección genérica de una pagina. Agrupa contenidos que tienen una
+                                relación temática entre si.</td>
+                        </tr>
+                        <tr>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">&lt;footer&gt;</td>
+                            <td style="width:50%; border-right:2.25pt solid #2f5496; border-bottom:2.25pt solid #2f5496;">Representa un pie de página para el elemento que lo contiene.<br>Generalmente contiene
+                                información acerca de quién lo escribió, enlaces a documentos relacionados, datos de
+                                derechos de autor o similares.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h4><br>Ejemplo:<br></h4>
+                <img src="../img/estructura-html5.jpg" ALIGN=CENTER alt="" width="90%" height="70%">
+            </article>
+        </section>
+        <aside>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+    <footer>
+        ©Copyright Sebastian Bernal:
+        <a href="mailto:bernalsebastian650@gmail.com"> Correo</a>
+        <a href="https://join.skype.com/invite/jhonber300"> Skype</a>
+        <a href="https://github.com/bernalsebastian650"> Github</a> Ultima
+        Actualización: 09-07-2021
+    </footer>
+</body>
+
+</html>

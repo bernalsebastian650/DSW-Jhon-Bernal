@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9364b54a-c635-4378-8743-19596da00e5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fase2/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase2/design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase3/Aprendizaje1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase3/Aprendizaje1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fase3/autor.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase3/autor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase3/recurso1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase3/recurso1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase3/recurso2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase3/recurso2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase3/tema1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase3/tema1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase3/tema2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase3/tema2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase3/tema3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase3/tema3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase4/aprendizaje1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase4/aprendizaje1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase4/aprendizaje2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase4/aprendizaje2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fase4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fase4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +25,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fase2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +51,8 @@
       <workItem from="1624908637541" duration="3045000" />
       <workItem from="1626747763609" duration="313000" />
       <workItem from="1626750763843" duration="25000" />
-      <workItem from="1627265632032" duration="23502000" />
+      <workItem from="1627265632032" duration="24099000" />
+      <workItem from="1627863448101" duration="1467000" />
     </task>
     <servers />
   </component>
